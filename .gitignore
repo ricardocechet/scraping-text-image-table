@@ -3,3 +3,6 @@ utils/__pycache__/
 utils/tags.txt
 utils/tagsPai.txt
 utils/tagsFilho.txt
+files/*
+!files/img
+files/img/*
