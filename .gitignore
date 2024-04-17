@@ -6,3 +6,6 @@ utils/tagsFilho.txt
 files/*
 !files/img
 files/img/*
+commits.txt
+.gitignore
+.git
