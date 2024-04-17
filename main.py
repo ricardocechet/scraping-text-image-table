@@ -15,7 +15,7 @@ url = "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/
 
 tagsPai = tools.extrair_texto_e_imagens(url)
 
-def intera(tags):
+def processTag(tags):
     for tag in tags.descendants: 
         # Verifica se a tag é uma instância de Tag
         if isinstance(tag, Tag):
@@ -37,7 +37,7 @@ def intera(tags):
             except:
                 pass
 
-intera(tagsPai)
+processTag(tagsPai)
 
 tagsFinal = ''
 for tag in tagsPai:
